@@ -1,0 +1,411 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.containerAll {
+    font-family: 'Benne', serif;
+}
+
+/* Logo - text */
+
+.logo-central {
+    width: 270px;
+    height: 92.25px;
+    margin: 38px auto 5px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-central span {
+    font-size: 3.2rem;
+    font-weight: 480;
+}
+
+.logo-central strong {
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 8.5px;
+}
+
+/* Main */
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 325px;
+}
+
+.main img {
+    width: 200px;
+    position: relative;
+}
+
+
+.main-two {
+    width: 100%;
+    height: 0;
+}
+
+.main-two .main-languagues {
+    width: 156px;
+    height: 45px;
+}
+
+.main-two .main-languagues strong {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #3366CC;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.main-two .main-languagues p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    opacity: 0.85;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.main-two .main-spanish {
+    position: absolute;
+    top: 157px;
+    left: 36.5%;
+}
+
+.main-two .main-english {
+    position: absolute;
+    top: 157px;
+    right: 36.5%;
+}
+
+.main-two .main-nihongo {
+    position: absolute;
+    top: 220px;
+    left: 33.1%;
+}
+
+.main-two .main-deutsch {
+    position: absolute;
+    top: 220px;
+    right: 33.1%;
+}
+
+.main-two .main-russkiy {
+    position: absolute;
+    top: 285px;
+    left: 31.3%;
+}
+
+.main-two .main-francais {
+    position: absolute;
+    top: 285px;
+    right: 31.3%;
+}
+
+.main-two .main-italiano {
+    position: absolute;
+    top: 345px;
+    left: 33.1%;
+}
+
+.main-two .main-zhongwen {
+    position: absolute;
+    top: 345px;
+    right: 33.1%;
+}
+
+.main-two .main-polski {
+    position: absolute;
+    top: 400px;
+    left: 36.5%;
+}
+
+.main-two .main-portugues {
+    position: absolute;
+    top: 400px;
+    right: 36.5%;
+}
+
+/* Section Search */
+
+.search-container {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container .fieldset {
+    display: flex;
+}
+
+.search-input {
+    border: 1.6px solid rgba(165, 146, 146, 0.7);
+    padding: 1px 10px;
+    display: flex;
+}
+
+.search-input input {
+    width: 340px;
+    height: 40px;
+    border: 0;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+#box-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 520px;
+    /* transform: translateX(-50%); */
+    width: 340px;
+    z-index: 8;
+    overflow: hidden;
+    display: none;
+    background: #fff;
+}
+
+#box-search li:hover {
+    background-color: rgba(175, 174, 243, 0.430);
+}
+
+#box-search li a {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#box-search li a:active {
+    color: #52188c;
+}
+
+#box-search svg {
+    width: 18px;
+    margin-right: 5.7px;
+    opacity: 0.35;
+}
+
+.search-languague {
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-languague {
+    font-size: 14px;
+    display: flex;
+    
+}
+
+.search-languague p {
+    position: relative;
+    top: 3px;
+    margin-right: 6px;
+}
+
+.search-container button {
+    background-color: #3366CC;
+    border: 0;
+    height: 45.19px;
+    width: 56px;
+    cursor: pointer;
+}
+
+.search-container .search-languague img {
+    width: 12px;
+    height: 8px;
+    opacity: 0.85;
+    margin-right: 6px;
+}
+
+.search-container button i {
+    font-size: 22px;
+    color: white;
+}
+
+/* Button Wiki */
+
+.content-button-wiki {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.content-button-wiki button {
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;  
+    border: 1.6px solid rgba(165, 146, 146, 0.65);
+}
+
+.content-button-wiki button img {
+    width: 22px;
+    margin-right: 10px;
+
+}
+
+.content-button-wiki button span {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-right: 10px;
+    color: #3366CC;
+    font-weight: 700;
+}
+
+.content-button-wiki button i {
+    margin-right: 5px;
+    height: 14px;
+    width: 14px;
+    color: #3366CC;
+    opacity: 0.85;
+}
+
+hr {
+    margin-top: 37.405px;
+    clear: both;
+    border-bottom: 1px solid #c8ccd1;
+    opacity: 0.5;
+}
+
+/* Footer */
+
+.footer {
+    padding: 41.6px 12.8px 12.8px;
+    display: flex;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-size: 1.55rem;
+}
+
+.section-one .fundation {
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 60px;
+    margin-bottom: 40px;
+}
+
+
+.section-one .fundation svg {
+    min-width: 42px;
+    position: relative;
+    bottom: 12px;
+}
+
+.section-one .fundation p {
+    padding-left: 11.5px;
+    color: #54595D;
+}
+
+
+.dowland {
+    display: flex;
+    padding: 0 20px 0 60px;
+}
+
+.dowland-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.dowland svg {
+    min-width: 42px;
+    cursor: pointer;
+}
+
+.dowland .dowland-description {
+    padding-left: 11.5px;
+    color: #54595D;
+}
+
+.dowland-description p {
+    margin: 13px 0;
+}
+
+
+/* Footer part Two */
+
+.section-two-grid {
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    font-family: 'Roboto', sans-serif;
+}
+
+.other-project {
+    height: 90px;
+    display: flex;
+    color: #54595D;
+}
+
+.other-project svg {
+    margin-right: 5.45px;
+    cursor: pointer;
+}
+
+.other-project img {
+    margin-right: 5.45px;
+    width: 47px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.content-title-description {
+    font-size: 1.45rem;
+}
+
+.content-title-description .other-project-title {
+    color: #3366CC;
+    font-size: 1.55rem;
+    padding-bottom: 5px;
+}
+
+/* Footer two */
+
+.footer-two {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #515558;
+}
+
+.footer-two a {
+    text-decoration: none;
+    color: #3366CC;
+}
+
+.footer-two a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
